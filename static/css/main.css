@@ -1,0 +1,62 @@
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: regular;
+    font-display: swap;
+    src: url('/static/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: bold;
+    font-display: swap;
+    src: url('/static/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: command;
+    font-display: swap;
+    src: url('/static/fonts/EnterCommand.ttf');
+}
+
+@font-face {
+    font-family: xbold;
+    font-display: swap;
+    src: url('/static/fonts/Montserrat-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: light;
+    font-display: swap;
+    src: url('/static/fonts/Montserrat-Light.ttf');
+}
+
+@font-face {
+    font-family: italic;
+    font-display: swap;
+    src: url('/static/fonts/Montserrat-Italic.ttf');
+}
+
+@font-face {
+    font-family: thin;
+    font-display: swap;
+    src: url('/static/fonts/Montserrat-Thin.ttf');
+}
+
+@font-face {
+    font-family: monoton;
+    font-display: swap;
+    src: url('/static/fonts/monoton.ttf');
+}

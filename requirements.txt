@@ -1,1 +1,1 @@
-environ
+django-environ
