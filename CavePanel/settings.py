@@ -135,12 +135,16 @@ MEDIA_URL = '/cdn/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'cdn/')
 
 # E-Mail
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND = 'django.site.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = env("E_MAIL_HOST")
 EMAIL_PORT = env("E_MAIL_PORT")
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = env("E_MAIL_USER")
 EMAIL_HOST_PASSWORD = env("E_MAIL_PASSWORD")
+
+# CavePanel Config
+CAN_REGISTER = env('CAN_REGISTER')
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
